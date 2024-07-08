@@ -1,0 +1,288 @@
+*
+{
+    margin:0;
+    box-sizing:border-box;
+}
+html,body 
+{
+    height:100%;
+}
+.main-container 
+{
+    width:100%;
+    height:100%;
+    /* background-color: seagreen; */
+}
+.nav-container
+{
+    width:100%;
+    height:100px;
+    /* background-color: yellow; */
+
+}
+.item-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+ul 
+{
+    list-style-type: none;
+}
+.item-container 
+{
+    align-self: start;
+    margin-left:0;
+}
+span 
+{
+    font-size: 48px;
+    font-family: poppins,sans-serif;
+    font-weight: bolder;
+    margin-right:10px;
+    color:#418014;
+}
+li 
+{
+    font-size: 20px;
+    color:#758669;
+    font-weight: bold;
+}
+.btn
+{
+    background-color: #54ba44;
+    border:1px solid #54ba44;
+    font-size: 15px;
+    font-weight:bold;
+    padding:12px 15px;
+    color:white;
+}
+.welcome
+{
+    height:400px;
+    width:100%;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.welcome .butn
+{
+    background-color: #54ba44;
+    border:1px solid #54ba44;
+    font-size: 15px;
+    font-weight:bold;
+    padding:12px 15px;
+    color:white;
+    margin-top:30px;
+}
+
+.sub h1 
+{
+    font-size: 39px;
+}
+.sub h2
+{
+    margin-top:20px;
+}
+.sub 
+{
+    color:#418014;
+    height:100px;
+    width:500px;
+}
+.welcome .sub 
+{
+    position:absolute;
+    top:100px;
+    left:80px;
+    line-height:1.5;
+    
+}
+
+/* five images */
+.service-section
+{
+    width:100%;
+    height:400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.one 
+{
+    width:200px;
+    height:300px;
+    background-color: white;
+    margin:5px;
+    margin-top: 40px;
+}
+.two
+{
+    width:200px;
+    height:300px;
+    background-color: white;
+    margin:5px;
+    margin-top: 40px;
+
+}
+.three 
+{
+    width:200px;
+    height:300px;
+    background-color: white;
+    margin:5px;
+    margin-top: 40px;
+}
+.four 
+{
+    width:200px;
+    height:300px;
+    background-color: white;
+    margin:5px;
+    margin-top: 40px;
+}
+.five 
+{
+    width:200px;
+    height:300px;
+    background-color:white;
+    margin:5px;
+    margin-top: 40px;
+}
+.service-images
+{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-bottom:20px;
+}
+h2
+{
+    text-align: center;
+    color:#418014;
+}
+
+/* this is the first section of images and descriptions */
+
+.first-section
+{
+    /* background-color:seagreen; */
+    width:100%;
+    height:350px;
+    display: flex;
+}
+.first-left
+{
+    width:50%;
+    height:450px;
+    /* background-color: red; */
+    background-image: url(./doctor1.jpg);
+    background-size: cover;
+}
+.first-right
+{
+    width:50%;
+    height:450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description
+{
+    font-size: 45px;
+    margin:10px 30px;
+}
+.description-p
+{
+    margin:10px 30px;
+    line-height: 1.5;
+    color:#418014;
+    font-size: 21px;
+}
+.first-btn
+{
+    margin:10px 30px;
+    height: 50px;
+    width:200px;
+    align-self: flex-start;
+    background-color:#418014;
+    border:1px solid #54ba44;
+    font-size: 15px;
+    font-weight:bold;
+    padding:15px 20px;
+    color:white;
+    
+}
+
+/* second section of image and description */
+.second-section
+{
+    margin-top:51px;
+    background-color:seagreen; 
+    width:100%;
+    height:360px;
+    display: flex;
+}
+.second-left
+{
+    width:50%;
+    height:450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-right
+{
+    width:50%;
+    height:450px;
+    background-image: url(./customer-care.jpg);
+    background-size: cover;
+}
+
+/* third section of image and description */
+.third-section
+{
+    margin-top:51px;
+    /* background-color:seagreen;  */
+    width:100%;
+    height:450px;
+    display: flex;
+}
+.third-left
+{
+    width:50%;
+    height:450px;
+    background-image: url(./ayurveda.jpg);
+   
+    background-size: cover;
+}
+.third-right
+{
+    width:50%;
+    height:450px;
+    /* background-color: rgb(98, 10, 10); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+/* latest article section   */
+.article 
+{
+    width:100%;
+    margin-top:20px;
+   
+}
+.art 
+{
+    font-size: 54px;
+    color:#418014;
+    text-align:center;
+}
